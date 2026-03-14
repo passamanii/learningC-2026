@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 int main() {
 
     int grade[] = {80, 85, 90};
