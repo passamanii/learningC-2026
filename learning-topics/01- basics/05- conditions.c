@@ -1,5 +1,6 @@
 #include <stdio.h>
 
+
 void guess_number(int guess) {
 
     if (guess < 555) {
