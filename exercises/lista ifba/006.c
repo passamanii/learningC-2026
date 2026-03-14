@@ -9,7 +9,6 @@ void division(int a, int b, int *quociente, int *resto) {
 
 int main() {
 
-
     int n1, n2, quociente, resto;
 
     printf("Informe os dois numeros aqui: ");
