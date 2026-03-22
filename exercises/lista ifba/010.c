@@ -15,6 +15,7 @@ char* convert_to_binary(int number) {
         binary[i] = (number%2) + '0';
         number /= 2;
     }
+    
     binary[i] = '\0';
     invert_array(binary);
     return binary;
