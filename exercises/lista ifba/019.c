@@ -3,7 +3,7 @@
 
 float calcula_raiz(int a, int b) {
 
-    float x = ((-b)/a);
+    float x = ((float)(-b)/a);
 
     return x;
 }
