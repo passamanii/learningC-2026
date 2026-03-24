@@ -63,7 +63,7 @@ int main() {
         } else if (tipo == 3) {
             printf("THE CHARACTER '%c' IS A SYMBOL!\n\n", input);
         } else {
-            printf("ERROR.");
+            printf("ERROR.\n\n");
         }
     }
 
