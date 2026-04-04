@@ -9,7 +9,7 @@ char* convert_to_binary(int number);
 char* convert_to_binary(int number) {
 
     int i;
-    static char binary[33];
+    static char binary[10];
 
     for (i=0; number > 0; i++) {
         binary[i] = (number%2) + '0';
