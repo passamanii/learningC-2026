@@ -4,6 +4,9 @@
 # Config
 *.json
 
+#IDE
+*.vscode
+
 # Object files
 *.o
 *.ko
