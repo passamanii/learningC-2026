@@ -3,7 +3,7 @@
 #include <time.h>
 
 void fill_array(int *array, int size);
-int verify_array(int *array, int size, int number);
+int sequential_search(int *array, int size, int number);
 void print_array(int *array, int size);
 void print_results(int number, int index);
 
@@ -15,7 +15,7 @@ void fill_array(int *array, int size) {
     }
 }
 
-int verify_array(int *array, int size, int number) {
+int sequential_search(int *array, int size, int number) {
 
     for (int i = 0; i < size; i++) {
         if (array[i] == number) {
@@ -68,7 +68,7 @@ int main() {
     printf("Input a integer for the verification: ");
     scanf("%d", &n);
 
-    index = verify_array(arr, 10, n);
+    index = sequential_search(arr, 10, n);
 
     print_results(n, index);
     print_array(arr, 10);
