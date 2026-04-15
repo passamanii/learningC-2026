@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 
-void create_array(int *destiny_array, int size) {
+void fill_array(int *destiny_array, int size) {
 
     for (int i = 0; i < size; i++) {
         destiny_array[i] = rand() %200+1; 
@@ -33,7 +33,7 @@ int main() {
 
     int quantity, n, arr[20];
 
-    create_array(arr, 20);
+    fill_array(arr, 20);
     print_array(arr, 20);
 
     printf("Input a integer to verify: ");
